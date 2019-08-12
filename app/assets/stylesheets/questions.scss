@@ -1,3 +1,52 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap');
+
+body {
+  background-color: rgba(240, 240, 240, 1);
+}
+
+p, h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset], p.btn-link {
+  background-color: #668cff;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.contenant {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+
+#coach {
+  min-width: 400px;
+  padding: 8px 20px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px 1px rgba(80, 80, 80, .3);
+}
+
+blockquote {
+  margin-left: 32px;
+  border-left: 4px solid #CCC;
+  padding-left: 8px;
+}
